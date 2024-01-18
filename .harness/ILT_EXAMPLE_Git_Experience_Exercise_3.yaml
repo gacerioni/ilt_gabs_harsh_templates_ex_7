@@ -22,7 +22,7 @@ pipeline:
                       type: Inline
                       spec:
                         script: |-
-                          echo "Hello, Harnessians H4CK!"
+                          echo "Hello, Harnessians H4CK!!!!!!!!!"
                           echo "You are <+project.name> for today's session!"
                     environmentVariables: []
                     outputVariables: []
