@@ -69,5 +69,11 @@ template:
             - AllErrors
           action:
             type: StageRollback
+    variables:
+      - name: gabs_ver
+        type: String
+        description: ""
+        required: true
+        value: aaa
   identifier: GabsTemplateTest
   versionLabel: 1.0.0-gabs
