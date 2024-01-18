@@ -22,8 +22,7 @@ pipeline:
                 source:
                   type: "Inline"
                   spec:
-                    script: "echo \"Hello, Harnessians!\"\necho \"You are <+project.name>\
-                      \ for today's session!\""
+                    script: "echo \"Hello, Harnessians!\""
                 environmentVariables: []
                 outputVariables: []
               timeout: "10m"
