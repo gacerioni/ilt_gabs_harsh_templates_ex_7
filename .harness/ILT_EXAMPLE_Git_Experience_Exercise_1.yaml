@@ -24,7 +24,7 @@ pipeline:
                       type: Inline
                       spec:
                         script: |-
-                          echo "Hello, Gabes!"
+                          echo "Hello, Gabriiiiiii!"
                           echo "You are <+project.name> for today's session!"
                     environmentVariables: []
                     outputVariables: []
