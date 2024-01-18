@@ -29,4 +29,19 @@ pipeline:
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
+              - step:
+                  type: ShellScript
+                  name: Print Message2
+                  identifier: Print_Message2
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: |-
+                          echo "today's session!"
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m                  
         tags: {}
