@@ -1,0 +1,31 @@
+---
+pipeline:
+  projectIdentifier: "student8beb4d8eec"
+  orgIdentifier: "InstructorLedTraining"
+  tags: {}
+  stages:
+  - stage:
+      name: "Custom Stage"
+      identifier: "Custom_Stage"
+      description: ""
+      type: "Custom"
+      spec:
+        execution:
+          steps:
+          - step:
+              type: "ShellScript"
+              name: "Print Message"
+              identifier: "Print_Message"
+              spec:
+                shell: "Bash"
+                executionTarget: {}
+                source:
+                  type: "Inline"
+                  spec:
+                    script: "echo eeeeeeeeeeeeeeeee"
+                environmentVariables: []
+                outputVariables: []
+              timeout: "10m"
+      tags: {}
+  identifier: "ILT_EXAMPLE_Git_Experience_Exercise_4"
+  name: "ILT EXAMPLE - Git Experience - Exercise 4"
